@@ -414,7 +414,7 @@ These are bigger ideas for the future — no timeline, just aspirations:
 - [ ] **Social features** — Public profiles, follow feeds, community challenges, shared journals
 - [ ] **Themeable icon packs** — Custom icons for bottom tabs and tool cards
 - [ ] **Localisation (i18n)** — Multi-language support starting with Spanish, French, German
-- [ ] **Accessibility mode** — Full TalkBack support, large text mode, high contrast theme
+- [ ] **Full accessibility certification** — Achieve WCAG 2.1 AA compliance across the entire app (builds on items in UI/UX Improvements → Accessibility)
 - [ ] **Offline-only mode** — Option to never connect to cloud, fully local-first
 - [ ] **Open source** — Consider open-sourcing the app in the future
 
