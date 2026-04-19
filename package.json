@@ -9,6 +9,7 @@
     "build:android:debug": "cd android && ./gradlew assembleDebug",
     "build:android:release": "cd android && ./gradlew assembleRelease",
     "lint": "eslint src --ext .ts,.tsx",
+    "lint:check": "eslint src --ext .ts,.tsx",
     "lint:fix": "eslint src --ext .ts,.tsx --fix",
     "format": "prettier --write 'src/**/*.{ts,tsx,js}'",
     "format:check": "prettier --check 'src/**/*.{ts,tsx,js}'",
@@ -81,24 +82,6 @@
     "typescript": "5.0.4",
     "@playwright/test": "^1.49.1",
     "detox": "^20.26.3"
-  },
-  "jest": {
-    "preset": "@react-native/jest-preset",
-    "setupFilesAfterFramework": [
-      "@testing-library/jest-native/extend-expect"
-    ],
-    "transformIgnorePatterns": [
-      "node_modules/(?!(react-native|@react-native|@react-navigation|phosphor-react-native|react-native-reanimated|react-native-gesture-handler|@shopify/flash-list|react-native-svg|react-native-mmkv|react-native-permissions|react-native-haptic-feedback|react-native-linear-gradient|@react-native-community|react-native-device-info|react-native-animatable|react-native-markdown-display|react-native-audio-recorder-player)/)"
-    ],
-    "moduleNameMapper": {
-      "\\.(jpg|jpeg|png|gif|webp|svg)$": "<rootDir>/src/__mocks__/fileMock.js"
-    },
-    "collectCoverageFrom": [
-      "src/**/*.{ts,tsx}",
-      "!src/**/*.d.ts",
-      "!src/**/__tests__/**",
-      "!src/**/index.ts"
-    ]
   },
   "detox": {
     "testRunner": {
