@@ -1,4 +1,4 @@
-package com.scottybootstrap
+package com.scottyapp
 
 import android.app.Application
 import com.facebook.react.PackageList

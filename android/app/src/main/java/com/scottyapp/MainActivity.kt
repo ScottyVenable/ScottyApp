@@ -1,4 +1,4 @@
-package com.scottybootstrap
+package com.scottyapp
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

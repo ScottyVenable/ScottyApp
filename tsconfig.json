@@ -1,8 +1,17 @@
 {
-  "extends": "@react-native/typescript-config",
   "compilerOptions": {
     "strict": true,
-    "types": ["jest"],
+    "target": "esnext",
+    "module": "commonjs",
+    "lib": ["esnext"],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "jsx": "react-native",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "ignoreDeprecations": "6.0",
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],

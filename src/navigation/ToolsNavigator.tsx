@@ -12,7 +12,9 @@ import MoodTrackerScreen from '../screens/mood/MoodTrackerScreen';
 import MoodHistoryScreen from '../screens/mood/MoodHistoryScreen';
 import SnippetListScreen from '../screens/snippets/SnippetListScreen';
 import SnippetCreateScreen from '../screens/snippets/SnippetCreateScreen';
+import SnippetDetailScreen from '../screens/snippets/SnippetDetailScreen';
 import ReadingListScreen from '../screens/reading/ReadingListScreen';
+import ReadingItemScreen from '../screens/reading/ReadingItemScreen';
 
 const Stack = createNativeStackNavigator<ToolsStackParamList>();
 
@@ -30,7 +32,9 @@ export default function ToolsNavigator() {
       <Stack.Screen name="MoodHistory" component={MoodHistoryScreen} />
       <Stack.Screen name="SnippetList" component={SnippetListScreen} />
       <Stack.Screen name="SnippetCreate" component={SnippetCreateScreen} />
+      <Stack.Screen name="SnippetDetail" component={SnippetDetailScreen} />
       <Stack.Screen name="ReadingList" component={ReadingListScreen} />
+      <Stack.Screen name="ReadingItem" component={ReadingItemScreen} />
     </Stack.Navigator>
   );
 }
